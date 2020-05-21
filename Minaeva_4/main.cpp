@@ -33,6 +33,9 @@ int main()
 		sum_minus += 1 / k;
 	}
 
+	cout << "Сумма положительных: " << sum_plus << "\n";
+	cout << "Сумма отрицательных: " << sum_minus << "\n";
+	
 	double sum2 = sum_plus - sum_minus;
 
 	cout << "При отдельном вычислении результат: \n" << setprecision(20) << sum2 << "\n";
